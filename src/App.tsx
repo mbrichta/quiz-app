@@ -66,7 +66,7 @@ const App = () => {
             null
         }
 
-        {!gameOver && <p className="score">Score:{score}</p>}
+        {!gameOver && <p className="score">Score: {score}</p>}
 
         {loading && <p>Loading Questions...</p>}
 
